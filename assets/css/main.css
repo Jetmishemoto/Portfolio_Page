@@ -33,6 +33,11 @@ ol, ul {
 	list-style: none;
 }
 
+.content{
+	background-color: rgba(0, 0, 0, 0.425);
+	border-radius: 50px;
+}
+
 blockquote, q {
 	quotes: none;
 }
