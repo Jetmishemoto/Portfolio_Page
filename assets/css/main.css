@@ -2245,7 +2245,8 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/"), url("../../images/DSC_0175.JPG");
+		top: -70px;
+		background: url("images/"), url("../../images/Profile_pic.JPG");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
