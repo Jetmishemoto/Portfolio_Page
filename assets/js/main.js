@@ -1,5 +1,14 @@
 
 
+function Spy(Element){
+	if (Element){
+
+	}
+	console.log("Whoa, what are you doing back here?...I guess you can look around if you like." 
+	)
+
+}
+
 (function($) {
 
 	var	$window = $(window),

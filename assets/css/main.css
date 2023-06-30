@@ -1291,7 +1291,7 @@ input, select, textarea {
 		}
 
 		.poptrox-popup .nav-next,
-		.poptrox-popup .nav-previous {
+		one		.poptrox-popup .nav-previous {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2263,6 +2263,42 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+	.skilllist{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+
+
+	}
+	 .skillsection {
+		display: flex;
+		flex-direction: column;
+		font-size: xx-large;
+		font-weight: 700;
+
+	 }
+		.skillicons {
+			display: flex;
+			flex-direction: column;
+			
+			width: 104px;
+			
+
+		}
+		.skillicons img{
+			margin: 15px 0;
+		}
+
+		
+		@media screen and (max-width: 736px) {
+
+			.skillsection {
+				display: none;
+			}
+		
+		}
+
+
 
 /* Two */
 
@@ -2272,6 +2308,12 @@ input, select, textarea {
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+	}
+
+	.stone{
+		border-radius: 152px;
+		width: 527px;
+
 	}
 
 /* Contact */
